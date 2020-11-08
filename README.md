@@ -30,15 +30,16 @@ Karena disini saya diberi tugas mencari nilai max dari ketiga data maka saya aka
 
 if N>0: <br>
     i=1 <br>
-    x=int(input("data ke -"+str(i)+"=")) <br>
-    max=x;total=x <br>
+    x=int(input("data ke -"+str(i)+"="))
+    max=x;total=x
     for i in range(2,N+1): <br>
-        x=int (input("data ke -"+str(i)+"=")) <br>
-        total+=x <br>
-        if max<x: <br>
-            max=x <br>
+        x=int (input("data ke -"+str(i)+"="))
+        total+=x
+        if max<x: 
+            max=x 
 
     print("bilangan terbesar =",max)
+```
 Selanjutnya kalian bisa langsung memasukan syntax ini untuk melengkapi syntax diatas supaya bisa berjalan dengan baik seperti pada gambar dibawah ini. <br>
 
 ![tugas](foto/latihan2.png)
